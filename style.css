@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid aqua;
+    width: 496px;
+    height: auto;
+
+}
+
+.container>div {
+    border: 0.5px solid blue;
+    height: 30px;
+    width: 30px;
+    /* transition: background-color 0.3s ease; */
+  }
+
+.container>div.hoverRed {
+    background-color: red; /* Change the color to your desired hover color */
+}
+.container>div.hoverBlack {
+    background-color: black; /* Change the color to your desired hover color */
+}
+.container>div.hoverEraser {
+    background-color: white; /* Change the color to your desired hover color */
+}
+
+.buttons{
+    display: flex;
+
+}
+
+#black{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    border-color: aqua;
+    border-radius: 70%;
+}
+
+#red{
+    width: 50px;
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+    border-color: aqua;
+    border-radius: 70%;
+}
+
+#eraser{
+    width: 50px;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    border-color: aqua;
+    border-radius: 70%;
+}
+
+#reset{
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border-color: aqua;
+    border-radius: 30%;
+}
+
+#reset:hover{
+    background-color: red;
+}
+
+#resize{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 130px;
+    margin: 20px;
+}
+
